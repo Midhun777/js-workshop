@@ -1,3 +1,5 @@
+//otp generation 
+
 function generateOtp() {
 	//	import { randomInt } from "crypto";
 	//const otp = randomInt(10000, 1000000);

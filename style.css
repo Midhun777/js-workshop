@@ -1,3 +1,6 @@
 body {
-    font-size: 15pt;
+	font-family: monospace;
+	font-size: 17px;
+	color: #3A241A;
+	background: #E0E0E0;
 }
