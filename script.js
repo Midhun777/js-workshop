@@ -19,3 +19,4 @@ function checkOtp() {
 		document.getElementById('otp-result').innerHTML = "Otp Verification Failed!";
 	}
 }
+
