@@ -32,10 +32,12 @@ function testFunction() {
 
 //objects 
 
-let user = {
+let userObject = {
 	firstName: 'John',
 	lastName: 'Doe'
 };
 
-//console.log(user);
-//console.log(user.firstName + ' ' + user.lastName);
+//console.log(userObject);
+//console.log(userObject.firstName + ' ' + userObject.lastName);
+
+let userArray = ['John', 'Kevin', 'Harry'];
