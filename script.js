@@ -40,4 +40,9 @@ let userObject = {
 //console.log(userObject);
 //console.log(userObject.firstName + ' ' + userObject.lastName);
 
+//array test
+
 let userArray = ['John', 'Kevin', 'Harry'];
+
+console.log(userArray);
+
