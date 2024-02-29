@@ -22,7 +22,6 @@ function checkOtp() {
 
 
 //function argument passing test
-
 function testFunction() {
 	let a = 5;
 	let b = 10
@@ -31,18 +30,53 @@ function testFunction() {
 //console.log(testFunction());
 
 //objects 
-
 let userObject = {
 	firstName: 'John',
 	lastName: 'Doe'
 };
 
+
 //console.log(userObject);
 //console.log(userObject.firstName + ' ' + userObject.lastName);
 
 //array test
-
 let userArray = ['John', 'Kevin', 'Harry'];
+//console.log(userArray);
+/*
+for (var i = 0; i < userArray.length; i++) {
+	console.log(userArray[n]);
+}
+*/
 
-console.log(userArray);
+//string slice
+let name = "Midhun";
+//console.log(name.slice(0,3));
 
+//type conversion
+let ta = "10";
+let tb = 15;
+
+//console.log(typeof ta);
+//console.log(typeof tb);
+
+//console.log('----')
+
+//console.log(typeof parseInt(ta));
+//console.log(typeof tb.toString());
+
+var box0 = document.getElementById('box-0').value;
+var box1 = document.getElementById('box-1').value;
+var box2 = document.getElementById('box-2').value;
+var box3 = document.getElementById('box-3').value;
+var box4 = document.getElementById('box-4').value;
+var box5 = document.getElementById('box-5').value;
+var box6 = document.getElementById('box-6').value;
+var box7 = document.getElementById('box-7').value;
+var box8 = document.getElementById('box-8').value;
+var box9 = document.getElementById('box-9').value;
+let resultText = document.getElementById('result');
+	resultText.innerHTML = "o won";
+
+function getResult() {
+	resultText.innerHTML = "o won";
+}
