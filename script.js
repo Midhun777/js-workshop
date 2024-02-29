@@ -64,6 +64,9 @@ let tb = 15;
 //console.log(typeof parseInt(ta));
 //console.log(typeof tb.toString());
 
+
+/*
+//Tic Tac Toe Game Code 
 var box0 = document.getElementById('box-0').value;
 var box1 = document.getElementById('box-1').value;
 var box2 = document.getElementById('box-2').value;
@@ -77,7 +80,8 @@ var box9 = document.getElementById('box-9').value;
 let displayResult = document.getElementById('result');
 
 function getResult() {
-	displayResult.innerHTML = 'Draw!';
-	displayResult.innerHTML = "o won";
+	displayResult.innerHTML = 'o won!';
 }
 getResult();
+
+*/
