@@ -74,9 +74,10 @@ var box6 = document.getElementById('box-6').value;
 var box7 = document.getElementById('box-7').value;
 var box8 = document.getElementById('box-8').value;
 var box9 = document.getElementById('box-9').value;
-let resultText = document.getElementById('result');
-	resultText.innerHTML = "o won";
+let displayResult = document.getElementById('result');
 
 function getResult() {
-	resultText.innerHTML = "o won";
+	displayResult.innerHTML = 'Draw!';
+	displayResult.innerHTML = "o won";
 }
+getResult();
