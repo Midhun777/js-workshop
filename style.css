@@ -5,24 +5,24 @@ body {
 	background: #E0E0E0;
 }
 
-input{
-		font-family: monospace;
-	width : 30px;
-		height : 30px;
-		margin: 4px;
-		font-size: 17px;
+input {
+	font-family: monospace;
+	width: 30px;
+	height: 30px;
+	margin: 4px;
+	font-size: 17px;
 }
 
-input:focus{
-		width : 33px;
-		height : 33px;
+input:focus {
+	width: 31px;
+	height: 31px;
 }
 
-#otpBox{
-	width :50%;
-	height : 100%;
+#otpBox {
+	width: 50%;
+	height: 100%;
 }
 
-#result-1{
-	color:#F4511E;
+#result-1 {
+	color: #F4511E;
 }
