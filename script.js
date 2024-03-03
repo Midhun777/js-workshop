@@ -167,7 +167,9 @@ function checkResult() {
 
 		resultText.innerHTML = 'X Won!';
 	}
-	if (box6 == 'X' && box7 == 'X' && box8 == 'X') {}
+	if (box6 == 'X' && box7 == 'X' && box8 == 'X') {
+		resultText.innerHTML = 'X Won!';
+	}
 
 	if (box0 == 'X' && box3 == 'X' && box6 == 'X') {
 
