@@ -100,116 +100,119 @@ function checkResult() {
 	var box7 = document.getElementById('box-7').value;
 	var box8 = document.getElementById('box-8').value;
 
+	var resultText = document.getElementById('result-1');
+
 	//Capital O
 	if (box0 == 'O' && box1 == 'O' && box2 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box3 == 'O' && box4 == 'O' && box5 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box6 == 'O' && box7 == 'O' && box8 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 
 	if (box0 == 'O' && box3 == 'O' && box6 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box1 == 'O' && box4 == 'O' && box7 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box2 == 'O' && box5 == 'O' && box8 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 
 	if (box0 == 'O' && box4 == 'O' && box8 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box2 == 'O' && box4 == 'O' && box6 == 'O') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 
 	//Small o  
 	if (box0 == 'o' && box1 == 'o' && box2 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box3 == 'o' && box4 == 'o' && box5 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box6 == 'o' && box7 == 'o' && box8 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 
 	if (box0 == 'o' && box3 == 'o' && box6 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box1 == 'o' && box4 == 'o' && box7 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box2 == 'o' && box5 == 'o' && box8 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 
 	if (box0 == 'o' && box4 == 'o' && box8 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 	if (box2 == 'o' && box4 == 'o' && box6 == 'o') {
-		document.getElementById('result-1').innerHTML = 'O Won!';
+		resultText.innerHTML = 'O Won!';
 	}
 
 	//Capital X
 	if (box0 == 'X' && box1 == 'X' && box2 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box3 == 'X' && box4 == 'X' && box5 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+
+		resultText.innerHTML = 'X Won!';
 	}
-	if (box6 == 'X' && box7 == 'X' && box8 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
-	}
+	if (box6 == 'X' && box7 == 'X' && box8 == 'X') {}
 
 	if (box0 == 'X' && box3 == 'X' && box6 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box1 == 'x' && box4 == 'X' && box7 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box2 == 'X' && box5 == 'X' && box8 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 
 	if (box0 == 'X' && box4 == 'X' && box8 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box2 == 'X' && box4 == 'X' && box6 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 
 	//Small x
 	if (box0 == 'x' && box1 == 'x' && box2 == 'x') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box3 == 'x' && box4 == 'x' && box5 == 'x') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box6 == 'x' && box7 == 'x' && box8 == 'x') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 
 	if (box0 == 'x' && box3 == 'x' && box6 == 'x') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box1 == 'x' && box4 == 'X' && box7 == 'X') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box2 == 'x' && box5 == 'x' && box8 == 'x') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 
 	if (box0 == 'x' && box4 == 'x' && box8 == 'x') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 	if (box2 == 'x' && box4 == 'x' && box6 == 'x') {
-		document.getElementById('result-1').innerHTML = 'X Won!';
+		resultText.innerHTML = 'X Won!';
 	}
 
 }
