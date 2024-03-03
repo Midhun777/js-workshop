@@ -87,7 +87,6 @@ winning conditions
 
 //Tic Tac Toe Game Code
 
-var displayResult = document.getElementById('result-1');
 
 function checkResult() {
 
@@ -213,6 +212,29 @@ function checkResult() {
 		document.getElementById('result-1').innerHTML = 'X Won!';
 	}
 
+}
+
+function reset() {
+
+	var box0 = document.getElementById('box-0');
+	var box1 = document.getElementById('box-1');
+	var box2 = document.getElementById('box-2');
+	var box3 = document.getElementById('box-3');
+	var box4 = document.getElementById('box-4');
+	var box5 = document.getElementById('box-5');
+	var box6 = document.getElementById('box-6');
+	var box7 = document.getElementById('box-7');
+	var box8 = document.getElementById('box-8');
+
+	box0.value = "";
+	box1.value = "";
+	box2.value = "";
+	box3.value = "";
+	box4.value = "";
+	box5.value = "";
+	box6.value = "";
+	box7.value = "";
+	box9.value = "";
 }
 
 setInterval(checkResult, 700);
