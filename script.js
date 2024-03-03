@@ -75,29 +75,58 @@ winning conditions
 0 1 2
 3 4 5
 6 7 8 
+
 0 3 6
 1 4 7
 2 5 8
+
 0 4 8
 2 4 6
 
 */
 
-//Tic Tac Toe Game Code 
-var box0 = document.getElementById('box-0');
-var box1 = document.getElementById('box-1').value;
-var box2 = document.getElementById('box-2').value;
-var box3 = document.getElementById('box-3').value;
-var box4 = document.getElementById('box-4').value;
-var box5 = document.getElementById('box-5').value;
-var box6 = document.getElementById('box-6').value;
-var box7 = document.getElementById('box-7').value;
-var box8 = document.getElementById('box-8').value;
-var box9 = document.getElementById('box-9').value;
+//Tic Tac Toe Game Code
+
 var displayResult = document.getElementById('result-1');
 
 function checkResult() {
-	if (box0.value == 'o' && box1.value == 'o' && box2.value == 'o') {
+
+	var box0 = document.getElementById('box-0').value;
+	var box1 = document.getElementById('box-1').value;
+	var box2 = document.getElementById('box-2').value;
+	var box3 = document.getElementById('box-3').value;
+	var box4 = document.getElementById('box-4').value;
+	var box5 = document.getElementById('box-5').value;
+	var box6 = document.getElementById('box-6').value;
+	var box7 = document.getElementById('box-7').value;
+	var box8 = document.getElementById('box-8').value;
+
+	if (box0 == 'O' && box1 == 'O' && box2 == 'O') {
 		document.getElementById('result-1').innerHTML = 'O Won!';
 	}
+	if (box3 == 'O' && box4 == 'O' && box5 == 'O') {
+		document.getElementById('result-1').innerHTML = 'O Won!';
+	}
+	if (box6 == 'O' && box7 == 'O' && box8 == 'O') {
+		document.getElementById('result-1').innerHTML = 'O Won!';
+	}
+
+	if (box0 == 'O' && box3 == 'O' && box6 == 'O') {
+		document.getElementById('result-1').innerHTML = 'O Won!';
+	}
+	if (box1 == 'O' && box4 == 'O' && box7 == 'O') {
+		document.getElementById('result-1').innerHTML = 'O Won!';
+	}
+	if (box2 == 'O' && box5 == 'O' && box8 == 'O') {
+		document.getElementById('result-1').innerHTML = 'O Won!';
+	}
+
+	if (box0 == 'O' && box4 == 'O' && box8 == 'O') {
+		document.getElementById('result-1').innerHTML = 'O Won!';
+	}
+	if (box2 == 'O' && box4 == 'O' && box6 == 'O') {
+		document.getElementById('result-1').innerHTML = 'O Won!';
+	}
+
+
 }

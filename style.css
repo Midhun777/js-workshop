@@ -17,3 +17,8 @@ input:focus{
 		width : 33px;
 		height : 33px;
 }
+
+#otpBox{
+	width :50%;
+	height : 100%;
+}
