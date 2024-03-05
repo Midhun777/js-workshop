@@ -362,3 +362,26 @@ let username = window.prompt('Enter the name');
 
 console.log(username);
 */
+
+let x = 3.14;
+let y = 7;
+
+let round = Math.round(x);
+let ceil = Math.ceil(x)
+let floor = Math.floor(x);
+let abs = Math.abs(x);
+let trunc = Math.trunc(x);
+let max = Math.max(x, y);
+let sqrt = Math.sqrt(y);
+let pow = Math.pow(x,y);
+let sign = Math.sign(x);
+
+console.log(round);
+console.log(ceil);
+console.log(floor);
+console.log(abs);
+console.log(trunc);
+console.log(max);
+console.log(sqrt);
+console.log(pow);
+console.log(sign);
