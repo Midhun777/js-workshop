@@ -423,5 +423,7 @@ function check() {
 	if (amazonPay.checked) {
 		paymentText.innerHTML = 'You choosed Amazon Pay for payment!'
 	}
-	
+
 }
+
+//setInterval(check, 200);
