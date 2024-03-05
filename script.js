@@ -242,7 +242,7 @@ function reset() {
 	box9.value = "";
 }
 
-setInterval(checkResult, 700);
+// setInterval(checkResult, 700);
 
 /*
 
@@ -354,4 +354,11 @@ function playGame() {
 // Start the game
 playGame();
 
+*/
+
+//javascript user input
+/*
+let username = window.prompt('Enter the name');
+
+console.log(username);
 */
