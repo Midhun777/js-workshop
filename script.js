@@ -243,3 +243,115 @@ function reset() {
 }
 
 setInterval(checkResult, 700);
+
+/*
+
+
+// Initialize the board
+let board = [
+  ['', '', ''],
+  ['', '', ''],
+  ['', '', '']
+];
+
+// Function to print the board
+function printBoard() {
+  console.log('  0 1 2');
+  for (let i = 0; i < 3; i++) {
+    let row = i + ' ';
+    for (let j = 0; j < 3; j++) {
+      row += board[i][j] + ' ';
+    }
+    console.log(row);
+  }
+}
+
+// Function to check if a player has won
+function checkWin(player) {
+  // Check rows and columns
+  for (let i = 0; i < 3; i++) {
+    if ((board[i][0] === player && board[i][1] === player && board[i][2] === player) ||
+        (board[0][i] === player && board[1][i] === player && board[2][i] === player)) {
+      return true;
+    }
+  }
+  // Check diagonals
+  if ((board[0][0] === player && board[1][1] === player && board[2][2] === player) ||
+      (board[0][2] === player && board[1][1] === player && board[2][0] === player)) {
+    return true;
+  }
+  return false;
+}
+
+// Function to check if the board is full
+function isBoardFull() {
+  for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+      if (board[i][j] === '') {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+// Function for computer's move
+function computerMove() {
+  let row, col;
+  do {
+    row = Math.floor(Math.random() * 3);
+    col = Math.floor(Math.random() * 3);
+  } while (board[row][col] !== '');
+  board[row][col] = 'O';
+}
+
+// Function to play the game
+function playGame() {
+  let currentPlayer = 'X';
+
+  while (true) {
+    printBoard();
+    let row, col;
+    if (currentPlayer === 'X') {
+      // Player's move
+      console.log('Player\'s turn (X)');
+      row = parseInt(prompt('Enter row (0, 1, or 2):'));
+      col = parseInt(prompt('Enter column (0, 1, or 2):'));
+    } else {
+      // Computer's move
+      console.log('Computer\'s turn (O)');
+      computerMove();
+    }
+
+    // Check if move is valid
+    if (board[row][col] !== '') {
+      console.log('Invalid move. Try again.');
+      continue;
+    }
+
+    // Make the move
+    board[row][col] = currentPlayer;
+
+    // Check for win
+    if (checkWin(currentPlayer)) {
+      printBoard();
+      console.log(`${currentPlayer} wins!`);
+      break;
+    }
+
+    // Check for tie
+    if (isBoardFull()) {
+      printBoard();
+      console.log('It\'s a tie!');
+      break;
+    }
+
+    // Switch players
+    currentPlayer = (currentPlayer === 'X') ? 'O' : 'X';
+  }
+}
+
+// Start the game
+playGame();
+
+*/
