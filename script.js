@@ -363,6 +363,10 @@ let username = window.prompt('Enter the name');
 console.log(username);
 */
 
+//Javascript Math Functions
+
+/*
+
 let x = 3.14;
 let y = 7;
 
@@ -385,3 +389,5 @@ console.log(max);
 console.log(sqrt);
 console.log(pow);
 console.log(sign);
+
+*/
