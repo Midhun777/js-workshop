@@ -5,7 +5,7 @@ body {
 	background: #E0E0E0;
 }
 
-input {
+.box {
 	font-family: monospace;
 	width: 30px;
 	height: 30px;
@@ -13,7 +13,7 @@ input {
 	font-size: 17px;
 }
 
-input:focus {
+.box:focus {
 	width: 31px;
 	height: 31px;
 }
@@ -25,4 +25,11 @@ input:focus {
 
 #result-1 {
 	color: #F4511E;
+}
+
+.button-1{
+	height :25px;
+	width :70px;
+	font-size: 16px;
+	margin-top: 10px;
 }

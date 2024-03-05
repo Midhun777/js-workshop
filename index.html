@@ -24,21 +24,44 @@ No of Otp Generated : <span id="inc"></span>
 	<hr>
 	Tic Tac Toe <sub>2 player</sub>
 	<br> <br>
-	<input type="text" id="box-0" />
-	<input type="text" id="box-1" />
-	<input type="text" id="box-2" />
+	<input type="text" id="box-0" class="box" />
+	<input type="text" id="box-1" class="box" />
+	<input type="text" id="box-2" class="box" />
 	<br>
-	<input type="text" id="box-3" />
-	<input type="text" id="box-4" />
-	<input type="text" id="box-5" />
+	<input type="text" id="box-3" class="box" />
+	<input type="text" id="box-4" class="box" />
+	<input type="text" id="box-5" class="box" />
 	<br>
-	<input type="text" id="box-6" />
-	<input type="text" id="box-7" />
-	<input type="text" id="box-8" />
+	<input type="text" id="box-6" class="box" />
+	<input type="text" id="box-7" class="box" />
+	<input type="text" id="box-8" class="box" />
 	<br><br>
 	<button type="reset" onclick="reset()">Reset</button>
 	<br> <br>
 	<span id="result-1">invalid!</span>
+
+	<hr><br>
+
+	<input type="checkbox" id="subBox" name="card">
+	<label for="">Subscribe</label>
+	<br>
+	<br>
+	<input type="radio" id="phonePay" name="card">
+	<label for="phonePay">Phonepay</label>
+	<br>
+	<input type="radio" id="googlePay" name="card">
+	<label for="googlePay">Googlepay</label>
+	<br>
+	<input type="radio" id="paytm" name="card">
+	<label for="paytm">Paytm</label>
+	<br>
+	<input type="radio" id="amazonPay" name="card">
+	<label for="amazonPay">Amazonpay</label>
+	<br>
+	<button type="submit" class="button-1" onclick="check()">submit</button>
+
+	<p id="subText"></p>
+	<p id="paymentText"></p>
 
 	<script src="script.js"></script>
 

@@ -391,3 +391,37 @@ console.log(pow);
 console.log(sign);
 
 */
+
+const subBox = document.getElementById('subBox');
+const phonePay = document.getElementById('phonePay');
+const googlePay = document.getElementById('googlePay');
+const paytm = document.getElementById('paytm');
+const amazonPay = document.getElementById('amazonPay');
+
+const subText = document.getElementById('subText');
+const paymentText = document.getElementById('paymentText');
+
+
+function check() {
+
+	if (subBox.checked) {
+		subText.innerHTML = 'You are now subscribed!';
+	}
+	else {
+		subText.innerHTML = 'You are not subscribed!';
+	}
+
+	if (phonePay.checked) {
+		paymentText.innerHTML = 'You choosed Phonepay for payment!'
+	}
+	if (googlePay.checked) {
+		paymentText.innerHTML = 'You choosed Googlepay for payment!'
+	}
+	if (paytm.checked) {
+		paymentText.innerHTML = 'You choosed Paytm for payment!'
+	}
+	if (amazonPay.checked) {
+		paymentText.innerHTML = 'You choosed Amazon Pay for payment!'
+	}
+	
+}
