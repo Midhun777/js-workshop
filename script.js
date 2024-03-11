@@ -426,5 +426,12 @@ function check() {
 
 }
 
-
 //setInterval(check, 200);
+
+//Arrays
+var myArr = [[8, 4, 3, 7], [[5, 0, 3, 6], 6, 2, 8], [4, 7, 2, 9]];
+
+var outArr = myArr[1][0][1];
+ //gives 0
+ 
+ 
